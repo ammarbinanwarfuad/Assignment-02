@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+body {
+  background: rgb(0, 0, 0);
+  font-family: "Inter", sans-serif;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75),
+    rgba(240, 240, 240, 0.16)
+  );
+  padding: 0% 10%;
+}
+/* nav starts here */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.nav-logo {
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 120%;
+  font-style: italic;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 47px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px 4px;
+}
+.nav-item {
+  padding: 12px 24px;
+  border-radius: 46px;
+  color: rgb(255, 255, 255);
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.marked {
+  background: rgb(230, 83, 60);
+}
+.nav-item:hover {
+  background: rgb(230, 83, 60);
+}
+.nav-item:visited {
+  background: rgb(230, 83, 60);
+}
+.nav-menubar {
+  display: none;
+}
+
+/* hero section starts here */
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 17%;
+  }
+  .hero-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-title {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    max-width: 91%;
+  }
+  .shape_text {
+    font-family: "Miama", sans-serif;
+    font-size: 9.87rem;
+    font-weight: 100;
+    line-height: 50px;
+  }
+  .hero-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.031rem;
+  }
+  .hero-btn {
+    display: flex;
+    gap: 3%;
+  }
+  .btn {
+    max-width: 224px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 1.37rem;
+    letter-spacing: 0px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .primary-btn {
+    background: rgb(240, 83, 60);
+    border: none;
+  }
+  
+  .box {
+    max-width: 210px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 17px 10px;
+    position: absolute;
+  }
+  .upper-box {
+    margin: -450px 0px 0px 240px;
+  }
+  .upper-box-head {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0px 0px 2.5px 0px;
+  }
+  .upper-box-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.81rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 2.5px 0px 0px 0px;
+  }
+  .lower-box {
+    display: flex;
+    padding: 20px 10px 20px 10px;
+    align-items: center;
+    gap: 10px;
+    margin-left: -113px;
+    margin-top: -163px;
+  }
+  .lower-box-left {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+  }
+  .lower-box-head {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0px 0px 2.5px 0px;
+  }
+  .lower-box-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.81rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 2.5px 0px 0px 0px;
+  }
+  /* Hero Section Ends Here */
