@@ -699,7 +699,6 @@ footer {
 
 /* Footer Section Ends Here */
 
-
 /* Responsive CSS Media Queries Starts Here */
 @media screen and (max-width: 576px) {
   /* Header Section Responsive media Queries Starts Here */
@@ -720,190 +719,179 @@ footer {
   }
   /* nav bar media queries ends here */
 
-/* hero media queries starts here*/
-.hero-container {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.hero-title {
-  font-size: 2.97rem;
-  max-width: 90%;
-}
+  /* hero media queries starts here*/
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-title {
+    font-size: 2.97rem;
+    max-width: 90%;
+  }
 
-.text-style {
-  font-size: 5.87rem;
-  font-weight: 100;
-  line-height: 50px;
-}
-.hero-image {
-  display: block;
-  margin: 0 auto;
-}
-.upper-box {
-  margin-top: -530px;
-  margin-left: 48%;
-}
-.lower-box {
-  margin-left: 12px;
-  margin-top: -340px;
-}
-.hero-images {
-  width: 100%;
-}
+  .text-style {
+    font-size: 5.87rem;
+    font-weight: 100;
+    line-height: 50px;
+  }
+  .hero-image {
+    display: block;
+    margin: 0 auto;
+  }
+  .upper-box {
+    margin-top: -530px;
+    margin-left: 48%;
+  }
+  .lower-box {
+    margin-left: 12px;
+    margin-top: -340px;
+  }
+  .hero-images {
+    width: 100%;
+  }
 
-/* hero media queries ends here*/
+  /* hero media queries ends here*/
   /* Header Section Responsive media Queries Ends  Here */
 
   /* Main Section Responsive media Queries Starts Here */
 
+  /* habit section media queries starts here */
+  .habit {
+    margin: 0px auto 50px;
+  }
+  .habit-content-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.1rem;
+    margin-top: 8%;
+  }
+  .habit-content {
+    max-width: 90%;
+  }
+  .habit-items {
+    flex-direction: column;
+    gap: 20px;
+    gap: 50px;
+  }
+  .habit-image {
+    width: 70%;
+  }
 
-/* habit section media queries starts here */
-.habit {
-  margin: 0px auto 50px;
-}
-.habit-content-title {
-  color: rgb(255, 255, 255);
-  font-size: 2.1rem;
-  margin-top: 8%;
-}
-.habit-content {
-  max-width: 90%;
-}
-.habit-items {
-  flex-direction: column;
-  gap: 20px;
-  gap: 50px;
-}
-.habit-image {
-  width: 70%;
-}
+  /* habit section media queries ends here */
 
+  /* run section media queries starts here */
+  .run {
+    width: 90%;
+  }
+  .run-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .run-title {
+    font-size: 2.5rem;
+  }
+  .run-btn {
+    width: 100%;
+  }
+  .run-description {
+    width: 100%;
+  }
+  .run-image-box {
+    max-width: 100%;
+  }
+  .run-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
 
-/* habit section media queries ends here */
+  /* run section media queries ends here */
 
-/* run section media queries starts here */
-.run {
-  width: 90%;
-}
-.run-container {
-  flex-direction: column;
-  gap: 20px;
-}
-.run-title {
-  font-size: 2.5rem;
-}
-.run-btn {
-  width: 100%;
-}
-.run-description {
-  width: 100%;
-}
-.run-image-box {
-  max-width: 100%;
-}
-.run-image {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
+  /* BMI Section media queries Starts here */
+  .bmi-container-content {
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+  .bmi-left {
+    width: 100%;
+  }
+  .bmi-right {
+    width: 100%;
+  }
+  .bmi-head-title,
+  .bmi-head-description {
+    margin-left: 6%;
+  }
+  .bmi-head-description {
+    max-width: 85%;
+  }
+  #activity,
+  #sex {
+    border-right: 15px solid transparent;
+  }
+  /* BMI Section media queries ends here */
 
-/* run section media queries ends here */
+  /* Team Section  media queries Starts here  */
+  .team-title {
+    font-size: 2.5rem;
+  }
+  .team-description {
+    max-width: 80%;
+  }
+  .team-items {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 3%;
+  }
+  .hide-team {
+    display: none;
+  }
+  /* Team Section  media queries Ends here  */
 
-/* BMI Section media queries Starts here */
-.bmi-container-content {
-  flex-direction: column;
-  padding-bottom: 10%;
-}
-.bmi-left {
-  width: 100%;
-}
-.bmi-right {
-  width: 100%;
-}
-.bmi-head-title,
-.bmi-head-description {
-  margin-left: 6%;
-}
-.bmi-head-description {
-  max-width: 85%;
-}
-#activity,
-#sex {
-  border-right: 15px solid transparent;
-}
-/* BMI Section media queries ends here */
+  /* Transformation Story Section  media queries Starts here  */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 
-/* Team Section  media queries Starts here  */
-.team-title {
-  font-size: 2.5rem;
-}
-.team-description {
-  max-width: 80%;
-}
-.team-items {
-  grid-template-columns: repeat(1, 1fr);
-  margin: 0 3%;
-}
-.hide-team {
-  display: none;
-}
-/* Team Section  media queries Ends here  */
+  .transformation-section h2 {
+    font-size: 1.75rem;
+  }
 
-/* Transformation Story Section  media queries Starts here  */
-.grid-container {
-  grid-template-columns: 1fr;
-}
+  .transformation_body h3 {
+    font-size: 1.25rem;
+  }
 
-.transformation-section h2 {
-  font-size: 1.75rem;
-}
+  .transformation_body p {
+    font-size: 0.875rem;
+  }
+  /* Transformation Story Section  media queries Ends here  */
 
-.transformation_body h3 {
-  font-size: 1.25rem;
-}
+  /* Main Section Responsive media Queries Ends Here */
 
-.transformation_body p {
-  font-size: 0.875rem;
-}
-/* Transformation Story Section  media queries Ends here  */
+  /* Footer Section Media Queries Starts Here */
+  .footer-container {
+    flex-direction: column;
+    max-width: 85%;
+  }
+  .footer-right {
+    flex-direction: column;
+  }
+  .footer-left {
+    max-width: 100%;
+  }
+  .footer-right-right-title {
+    margin-top: 15px;
+  }
+  .footer-logo-text {
+    max-width: 90%;
+  }
+  .footer-logo {
+    margin-top: 10%;
+  }
+  .cp-container {
+    padding: 5%;
+  }
 
-/* Main Section Responsive media Queries Ends Here */
-
-
-/* Footer Section Media Queries Starts Here */
-.footer-container {
-  flex-direction: column;
-  max-width: 85%;
-}
-.footer-right {
-  flex-direction: column;
-}
-.footer-left {
-  max-width: 100%;
-}
-.footer-right-right-title {
-  margin-top: 15px;
-}
-.footer-logo-text {
-  max-width: 90%;
-}
-.footer-logo {
-  margin-top: 10%;
-}
-.cp-container {
-  padding: 5%;
-}
-
-/* Footer Section Media Queries Ends Here */
-
-
-
-
-
-
-
-
+  /* Footer Section Media Queries Ends Here */
 }
 
 /* Responsive CSS Media Queries Ends Here */
