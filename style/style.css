@@ -538,5 +538,74 @@ main {
   background: rgba(255, 255, 255, 0.1);
   padding: 20px;
 }
-
 /* Team Section Ends Here */
+
+/* Transformation Section Starts Here */
+
+.transformation-section {
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+}
+
+.transformation-section h2 {
+  text-align: center;
+  line-height: 120%;
+  letter-spacing: 0%;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.transformation-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.transformation-item {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.transformation-item:hover {
+  transform: translateY(-5px);
+}
+
+.transformation-item img {
+  width: 100%;
+  height: auto;
+}
+
+.transformation_body {
+  padding: 1rem;
+}
+
+.transformation_body h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.transformation_body p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.click-link {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.click-link:hover {
+  text-decoration: underline;
+}
+
+
+/* Transformation Section Ends Here */
